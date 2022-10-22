@@ -67,25 +67,22 @@ export default class Ocean extends React.Component {
             vents are one of the few sources of nutrients here.
           </p>
         </div>
-        <div id="pollution" className="ocean-text">
-          Uh-oh! Pollution permeates even the deepest of places.
-        </div>
-        {/* <div id="abyss" className="ocean-text">
+        <div id="abyss" className="ocean-text">
           <p className="ocean-header">The Abyss Layer</p>
           <p>
             To adapt to the lack of light and nutrients, many organisms do not
             have eyes, have weak muscles, and/or metabolize slowly. Deep sea
             vents are one of the few sources of nutrients here.
           </p>
-        </div> */}
-        {/* <div id="trenches" className="ocean-text">
+        </div> 
+        <div id="trenches" className="ocean-text">
           <p className="ocean-header">The Trenches Layer</p>
           <p>
             To adapt to the lack of light and nutrients, many organisms do not
             have eyes, have weak muscles, and/or metabolize slowly. Deep sea
             vents are one of the few sources of nutrients here.
           </p>
-        </div> */}
+        </div>
 
         <Creature
           name="phytoplankton"

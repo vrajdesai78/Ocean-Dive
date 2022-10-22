@@ -1,12 +1,12 @@
 .ocean {
-  height: 10000px;
+  height: 12000px;
   width: 100%;
   overflow: hidden;
 
   #background {
     position: absolute;
     z-index: -1;
-    height: 10000px;
+    height: 12000px;
     width: 100%;
   }
 
@@ -53,24 +53,22 @@
   }
 
   #abyss {
-    top: 5650px;
+    top: 7850px;
   }
 
   #trenches {
-    top: 5650px;
-  }
-
-  #pollution {
-    top: 10075px;
+    top: 11750px;
     left: 84%;
     width: 240px;
   }
+
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -80,6 +78,7 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }

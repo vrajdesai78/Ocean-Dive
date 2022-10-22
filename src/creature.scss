@@ -1,0 +1,35 @@
+.creature {
+  position: absolute;
+  user-select: none;
+}
+.button {
+  align-content: center;
+  font-size: 18px;
+  padding: 10px;
+  background-color: aqua;
+  border: 0;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.caption {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: column;
+  height: auto;
+  width: 400px;
+  padding: 20px;
+  border: 0px;
+  border-radius: 8px;
+  background-color: white;
+
+  .caption-name {
+    align-self: center;
+    padding-bottom: 16px;
+    font-size: 24px;
+  }
+
+  p {
+    margin: 0;
+  }
+}

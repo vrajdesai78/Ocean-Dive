@@ -38,21 +38,19 @@ export default class Ocean extends React.Component {
   render = () => {
     let backgroundColor = this.getGradient(this.state.scroll);
     let lightOpacity = (1 - Math.pow(1 - this.state.scroll, 2)) * 0.7 + 0.3;
-
     return (
       <div className="ocean">
         <p id="introduction" className="ocean-text">
-          Scroll down to explore the ocean! <br /> Hover over creatures for more
-          information.
+          Deep Dive to explore the ocean! <br /> Touch the species to know more and get exclusive cool NFTs.
         </p>
         <div id="sunlight" className="ocean-text">
-          <p className="ocean-header">The Sunlight Layer</p>
+          <p className="ocean-header">The Sunlight Layer (Upto 200m)</p>
           In the only layer that receives sunlight, photosynthesis by
           phytoplankton and algae provide an abundance of energy. Most of the
           life in the ocean lives here!
         </div>
         <div id="twilight" className="ocean-text">
-          <p className="ocean-header">The Twilight Layer</p>
+          <p className="ocean-header">The Twilight Layer (Upto 1000m)</p>
           <p>
             Organisms here must survive either by hunting in shallower waters or
             consuming particles which drift down from above. Due to the lack of
@@ -60,7 +58,7 @@ export default class Ocean extends React.Component {
           </p>
         </div>
         <div id="midnight" className="ocean-text">
-          <p className="ocean-header">The Midnight Layer</p>
+          <p className="ocean-header">The Midnight Layer (Upto 4000m) </p>
           <p>
             To adapt to the lack of light and nutrients, many organisms do not
             have eyes, have weak muscles, and/or metabolize slowly. Deep sea
@@ -68,24 +66,24 @@ export default class Ocean extends React.Component {
           </p>
         </div>
         <div id="abyss" className="ocean-text">
-          <p className="ocean-header">The Abyss Layer</p>
+          <p className="ocean-header">The Abyss Layer (Upto 6000m) </p>
           <p>
-            To adapt to the lack of light and nutrients, many organisms do not
-            have eyes, have weak muscles, and/or metabolize slowly. Deep sea
-            vents are one of the few sources of nutrients here.
+            The sunlight cannot reach this layer at all so it is pitch-black and near freezing.
+            Very few creatures live here but those that do are mainly transparent, blind
+            invertebrates.
           </p>
-        </div> 
+        </div>
         <div id="trenches" className="ocean-text">
-          <p className="ocean-header">The Trenches Layer</p>
+          <p className="ocean-header">The Trenches Layer (Upto 11000m) </p>
           <p>
-            To adapt to the lack of light and nutrients, many organisms do not
-            have eyes, have weak muscles, and/or metabolize slowly. Deep sea
-            vents are one of the few sources of nutrients here.
+            The Trenches are narrow, underwater valleys of the ocean floor which have high
+            pressure and near-freezing temperatures. There is no natural light in this zone
+            but different creatures can be found, such as sea stars.
           </p>
         </div>
 
         <Creature
-          name="phytoplankton"
+          name="coral_reef"
           x={50}
           y={1450}
           size={150}
@@ -93,15 +91,15 @@ export default class Ocean extends React.Component {
           captionY={-180}
         />
         <Creature
-          name="seaturtle"
+          name="dolphin"
           x={76}
           y={1600}
-          size={120}
+          size={300}
           captionX={-150}
           captionY={-290}
         />
         <Creature
-          name="dolphin"
+          name="seaturtle"
           x={10}
           y={1550}
           size={180}
@@ -109,7 +107,7 @@ export default class Ocean extends React.Component {
           captionY={-300}
         />
         <Creature
-          name="bluefin_tuna"
+          name="tuna"
           x={40}
           y={1750}
           size={160}
@@ -117,7 +115,7 @@ export default class Ocean extends React.Component {
           captionY={-250}
         />
         <Creature
-          name="school_of_fish"
+          name="koi"
           x={65}
           y={1950}
           size={150}
@@ -136,20 +134,20 @@ export default class Ocean extends React.Component {
           name="octopus"
           x={40}
           y={2950}
-          size={600}
+          size={450}
           captionX={-450}
           captionY={16}
         />
         <Creature
-          name="bristlemouth"
+          name="swordfish"
           x={20}
           y={3500}
-          size={100}
+          size={300}
           captionX={380}
           captionY={-90}
         />
         <Creature
-          name="sperm_whale"
+          name="spermwhale"
           x={16}
           y={4050}
           size={450}
@@ -157,75 +155,36 @@ export default class Ocean extends React.Component {
           captionY={-330}
         />
         <Creature
-          name="giant_squid"
-          x={7}
-          y={4550}
-          size={375}
-          captionX={650}
-          captionY={-315}
-        />
-        <Creature
-          name="blobfish"
-          x={20}
-          y={5250}
-          size={200}
-          captionX={200}
-          captionY={-36}
-        />
-        <Creature
           name="jellyfish"
           x={20}
-          y={6200}
-          size={800}
+          y={5700}
+          size={700}
           captionX={450}
           captionY={240}
         />
         <Creature
-          name="red_velvet_whale_fish"
+          name="anglerfish"
           x={50}
-          y={8050}
-          size={60}
+          y={6500}
+          size={300}
+          captionX={-300}
+          captionY={-90}
+        />
+        <Creature
+          name="squid"
+          x={20}
+          y={7250}
+          size={450}
           captionX={-480}
           captionY={-135}
         />
         <Creature
-          name="humpback_angler_fish"
-          x={15}
-          y={9050}
-          size={250}
-          captionX={415}
-          captionY={-40}
-        />
-        <Creature
-          name="humpback_angler_fish"
+          name="sea_star"
           x={25}
-          y={9100}
-          size={40}
-          nocaption
-        />
-        <Creature
-          name="hydrothermal_vent"
-          x={5}
-          y={9746}
-          size={500}
-          captionX={380}
-          captionY={0}
-        />
-        <Creature
-          name="vulcanoctopus_hydrothermalis"
-          x={8}
-          y={9906}
-          size={200}
-          captionX={380}
-          captionY={-30}
-        />
-        <Creature
-          name="plastic_bag"
-          x={80}
-          y={9950}
-          size={100}
-          captionX={0}
-          captionY={-400}
+          y={8200}
+          size={300}
+          captionX={-300}
+          captionY={-90}
         />
         <div id="wave-container">
           <div></div>
@@ -307,6 +266,3 @@ export default class Ocean extends React.Component {
     );
   };
 }
-
-// abyss
-// trenches

@@ -1,11 +1,15 @@
 export const data = {
-    school_of_fish: {
-        name: "School of Fish",
-        info: "All commercially hunted fish live in the sunlight layer as the sunlight provides the energy and nutrients needed for plentiful life to survive.",
+    koi: {
+        name: "Koi Fish",
+        info: "Koi will be black with orange, white or yellow. Utsuri means reflections in Japanese. The Utsuri should have inverted areas of each color. The Utsuri should have a consistent offset pattern of it's colors with always having black on the head."
     },
-    bluefin_tuna: {
-        name: "Atlantic Bluefin Tuna",
-        info: "Color: Dark blue, gray, and gold\nSize:  6-8 ft adult length\nHabitat: Near to the surface but may dive up to 1000m\nPrey: Omnivorous - Plankton, smaller fish, and crustaceans\nBehavior: Usually solitary, can be found in small groups of up to six; nocturnal, feeds at night inshore\nFun fact: They need to be constantly moving to survive",
+    coral_reef: {
+        name: "Coral Reef",
+        info: "Coral reefs are the most diverse ecosystems on Earth. They are home to over 25% of all marine species and are the only known habitat for 25% of all marine species.",
+    },
+    tuna: {
+        name: "Tuna",
+        info: "Tuna are a group of fish that are widely distributed and highly migratory. They are found in all tropical and temperate oceans, from the surface to great depths. They are among the fastest-swimming pelagic fish in the ocean.",
     },
     seaturtle: {
         name: "Green Sea Turtle",
@@ -27,25 +31,13 @@ export const data = {
         name: "Common Octopus",
         info: "Species: Octopus vulgaris\nColor: Many colors as they change to match their surroundings\nSize: The “head” can grow up to 25 cm while the arms may reach up to a meter\nHabitat: Prefer rocky floors of shallow water\nPrey: Copepods, crabs, snails, and even other octopuses \nBehavior: They are some of the smartest animals on Earth with the observed ability to solve mazes, recognize individual humans, and learn how to unscrew jaws.\nFun fact: They have been observed to keep gardens of various marine plants",
     },
-    bristlemouth: {
-        name: "Veiled Anglemouth",
-        info: "Species: Cyclothone microdon\nColor: Brown and black\nSize: 10-15 cm\nHabitat: Higher latitudes most common in atlantic ocean and at depths of 3-4,000 meters\nPrey: Copepods and tiny crustaceans\nBehavior: Believed to mature in areas away from their primary habitat\nFun fact: Majority of adults are female as they change sex once they reach 22-24 mm in length",
-    },
     sperm_whale: {
         name: "Sperm Whale",
         info: "Species: Physeter macrocephalus\nColor: Dark gray\nSize: Up to 65 ft in length\nHabitat: Usually cold water areas, close to all waters that are over 1000 meters deep that do not have ice above\nPrey: Mainly deep water squid, including the giant squid as well as sharks, octopi, and fish\nBehavior: Recovering from being over hunted by the commercial whaling industry throughout the 1800s and 1900s; they are currently listed as endangered\nFun Fact: Possess the largest brain of any living animal and can dive beyond 1.9 miles or 3,000 meters",
     },
-    blobfish: {
-        name: "Blobfish",
-        info: "Species: Psychrolutes Marcidus\nColor: Pinkish white\nSize: About 30 cm long\nHabitat: Deep sea on the ocean floor off the coast of Australia and New Zealand\nPrey: Sea crabs, shellfish, sea urchins, mollusks\nBehavior: Blobfish slowly float on the ocean floor and will stay still before gulping up unsuspecting prey passing by.\nFun Fact: The blobfish was voted the ugliest animal in the world by the Ugly Animal Preservation Society.",
-    },
-    red_velvet_whale_fish: {
-        name: "Red Velvet Whale Fish",
-        info: "Species: Barbourisia rufa\nColor: Brown and red\nSize: Largest reach 40 cm\nHabitat: Deep Sea\nPrey: Copepods and smaller fish\nBehavior: Utilizes sensory pores instead of eyesight to sense vibrations from predators and prey\nFun fact: the larvae, male, and female have such disparate appearances that scientists initially thought they were three different species\nSecond fact: Since red light does not travel well in the deep sea and appears black, its bright red color acts as the perfect camouflage.",
-    },
-    humpback_angler_fish: {
-        name: "Humpback Angler Fish",
-        info: "Species: Melanocetus Johnsonii\nColor: Brownish tan\nSize: 7 inches - female, 1 inch - male\nHabitat: At least 2,000 meters or 6,600 feet of open ocean\nPrey: Anything in the deep sea - nutrients are extremely limited\nBehavior: Females release powerful pheromones that attract the small male anglerfish to mate.\nFun Fact: Only females possess the glowing bulb that hangs from their head.  Inside, bioluminescent bacteria produce light, which is used to attract prey to the front of their mouth.  They have large teeth and expandable jaw to eat anything.",
+    anglerfish: {
+        name: "Anglerfish",
+        info: "Species: Lophius piscatorius\nColor: Brown, gray, or green\nSize: Up to 3 feet in length\nHabitat: Deep water, usually in the Atlantic Ocean\nPrey: Fish, squid, and crustaceans\nBehavior: They are usually solitary but can be found in small groups of up to 10\nFun fact: They have a bioluminescent lure on their head that attracts prey",
     },
     vulcanoctopus_hydrothermalis: {
         name: "Vent Octopus",
@@ -63,4 +55,12 @@ export const data = {
         name: "Giant Phantom Jelly",
         info: "Species: Stygiomedusa gigantea\nColor: Red-orange but may appear invisible in the deep ocean\nSize: The bell can grow up to 1m but the “arms” can stretch 4-5x that length\nHabitat: Widespread\nPrey: Plankton and small fish\nBehavior: Observed to be more common around hydrothermal vents\nFun Fact: It has only been sighted 27 times in the last 27 years due to its habitat’s depth",
     },
+    sea_star: {
+        name: "Sea Star",
+        info: "Sea stars are echinoderms that are closely related to sea urchins and sand dollars. They are found in all oceans and are usually solitary. They are carnivorous and feed on mollusks, crustaceans, and other sea stars.",
+    },
+    squid: {
+        name: "Squid",
+        info: "Squids are cephalopods that are closely related to octopuses and cuttlefish. They are found in all oceans and are usually solitary. They are carnivorous and feed on fish, crustaceans, and other squids.",
+    }
 };

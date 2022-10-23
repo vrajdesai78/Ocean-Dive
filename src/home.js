@@ -19,8 +19,7 @@ export default class Home extends React.Component {
 
         <div id="center-container">
           <p id="center-title">
-            Ocean <br />
-            Adventure
+            Ocean Dive
           </p>
 
           <p id="center-subtitle">Deep, Dive and Discover</p>

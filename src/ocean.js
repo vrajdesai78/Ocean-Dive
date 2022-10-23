@@ -42,7 +42,7 @@ export default class Ocean extends React.Component {
       <div className="ocean">
         <audio
           ref="audio_tag"
-          src="../assets/sea waves sound effects.mp3"
+          src="../assets/sea waves sound effects.wav"
           loop
           volume="0.5"
           autoPlay
@@ -81,7 +81,7 @@ export default class Ocean extends React.Component {
           </p>
         </div>
         <div id="trenches" className="ocean-text">
-          <p className="ocean-header">The Trenches Layer\n(Upto 11000m) </p>
+          <p className="ocean-header">The Trenches Layer<br></br>(Upto 11000m) </p>
           <p>
             The Trenches are narrow, underwater valleys of the ocean floor which have high
             pressure and near-freezing temperatures. There is no natural light in this zone

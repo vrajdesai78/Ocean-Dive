@@ -1,15 +1,15 @@
 {
     "name": "ocean-depths",
     "version": "1.0.0",
-    "description": "Ocean Adventure",
+    "description": "Ocean Dive",
     "main": "index.js",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tonywu315/ocean-depths.git"
+        "url": "https://github.com/vrajdesai78/Ocean-World-DeepDiveHacks"
     },
     "scripts": {
-        "build": "webpack --config webpack.config.js",
+        "build": "webpack --config webpack.config.js --output public",
         "start": "webpack serve --open --config ./webpack.config.js"
     },
     "dependencies": {

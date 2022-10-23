@@ -1,12 +1,12 @@
 .ocean {
-  height: 8300px;
+  height: 9400px;
   width: 100%;
   overflow: hidden;
 
   #background {
     position: absolute;
     z-index: -1;
-    height: 8300px;
+    height: 9400px;
     width: 100%;
   }
 
@@ -22,22 +22,26 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
-    width: 700px;
+    width: 70%;
     color: white;
     text-align: center;
-    font-size: 16px;
+    font-size: 4rem;
+    animation: neonlite .08s ease-in-out infinite alternate;
   }
 
   .ocean-header {
-    font-size: 48px;
+    font-size: 7rem;
     padding-bottom: 12px;
+    font-weight: 300;
+    animation: neon .08s ease-in-out infinite alternate;
   }
 
   #introduction {
     top: 40vh;
-    font-size: 40px;
-    animation: fadeIn 2s linear forwards;
-    -webkit-animation: fadeIn 2s linear forwards;
+    font-size: 8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    animation: glow 2s ease-in-out infinite alternate;
   }
 
   #sunlight {
@@ -53,13 +57,13 @@
   }
 
   #abyss {
-    top: 6950px;
+    top: 7150px;
   }
 
   #trenches {
-    top: 7850px;
+    top: 8850px;
     left: 84%;
-    width: 240px;
+    width: 30%;
   }
 
 }
@@ -81,5 +85,56 @@
 
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px #a9482d;
+  }
+  to {
+    text-shadow: 0 0 30px #390b0b, 0 0 10px #4dbbc7;
+  }
+}
+
+@keyframes neon {
+  from {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 30px rgba(202,228,225,0.34),
+    0 0 12px rgba(30,132,242,0.52),
+    0 0 21px rgba(30,132,242,0.92),
+    0 0 34px rgba(30,132,242,0.78),
+    0 0 54px rgba(30,132,242,0.92);
+  }
+  to {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.98),
+    0 0 30px rgba(202,228,225,0.42),
+    0 0 12px rgba(30,132,242,0.58),
+    0 0 22px rgba(30,132,242,0.84),
+    0 0 38px rgba(30,132,242,0.88),
+    0 0 60px rgba(30,132,242,1);
+  }
+}
+
+@keyframes neonlite {
+  from {
+    text-shadow:
+    0 0 3px rgba(202,228,225,0.92),
+    0 0 20px rgba(202,228,225,0.34),
+    0 0 8px rgba(30,132,242,0.52),
+    0 0 18px rgba(30,132,242,0.92),
+    0 0 25px rgba(30,132,242,0.78),
+    0 0 40px rgba(30,132,242,0.92);
+  }
+  to {
+    text-shadow:
+    0 0 3px rgba(202,228,225,0.98),
+    0 0 20px rgba(202,228,225,0.42),
+    0 0 8px rgba(30,132,242,0.58),
+    0 0 18px rgba(30,132,242,0.84),
+    0 0 25px rgba(30,132,242,0.88),
+    0 0 40px rgba(30,132,242,1);
   }
 }

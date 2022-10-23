@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-transform: uppercase;
     font-family: "exo 2", sans-serif;
     transition: all 0.2s linear;
   }

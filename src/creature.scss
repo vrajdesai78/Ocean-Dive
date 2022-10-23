@@ -16,17 +16,21 @@
   position: absolute;
   display: inline-flex;
   flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: auto;
-  width: 400px;
-  padding: 20px;
+  width: auto;
+  padding: 1rem;
+  font-size: 1.5rem;
   border: 0px;
   border-radius: 8px;
   background-color: white;
 
   .caption-name {
     align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
     padding-bottom: 16px;
-    font-size: 24px;
+    font-size: 3rem;
   }
 
   p {

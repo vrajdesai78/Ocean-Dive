@@ -40,17 +40,24 @@ export default class Ocean extends React.Component {
     let lightOpacity = (1 - Math.pow(1 - this.state.scroll, 2)) * 0.7 + 0.3;
     return (
       <div className="ocean">
+        <audio
+          ref="audio_tag"
+          src="../assets/sea waves sound effects.mp3"
+          loop
+          volume="0.5"
+          autoPlay
+        />
         <p id="introduction" className="ocean-text">
-          Deep Dive to explore the ocean! <br /> Touch the species to know more and get exclusive cool NFTs.
+          Deep Dive to explore the ocean! <br /> Touch the species to know more about it.
         </p>
         <div id="sunlight" className="ocean-text">
-          <p className="ocean-header">The Sunlight Layer (Upto 200m)</p>
+          <p className="ocean-header">The Sunlight Layer<br></br>(Upto 200m)</p>
           In the only layer that receives sunlight, photosynthesis by
           phytoplankton and algae provide an abundance of energy. Most of the
           life in the ocean lives here!
         </div>
         <div id="twilight" className="ocean-text">
-          <p className="ocean-header">The Twilight Layer (Upto 1000m)</p>
+          <p className="ocean-header">The Twilight Layer<br></br>(Upto 1000m)</p>
           <p>
             Organisms here must survive either by hunting in shallower waters or
             consuming particles which drift down from above. Due to the lack of
@@ -58,7 +65,7 @@ export default class Ocean extends React.Component {
           </p>
         </div>
         <div id="midnight" className="ocean-text">
-          <p className="ocean-header">The Midnight Layer (Upto 4000m) </p>
+          <p className="ocean-header">The Midnight Layer<br></br>(Upto 4000m) </p>
           <p>
             To adapt to the lack of light and nutrients, many organisms do not
             have eyes, have weak muscles, and/or metabolize slowly. Deep sea
@@ -66,7 +73,7 @@ export default class Ocean extends React.Component {
           </p>
         </div>
         <div id="abyss" className="ocean-text">
-          <p className="ocean-header">The Abyss Layer (Upto 6000m) </p>
+          <p className="ocean-header">The Abyss Layer<br></br>(Upto 6000m) </p>
           <p>
             The sunlight cannot reach this layer at all so it is pitch-black and near freezing.
             Very few creatures live here but those that do are mainly transparent, blind
@@ -74,7 +81,7 @@ export default class Ocean extends React.Component {
           </p>
         </div>
         <div id="trenches" className="ocean-text">
-          <p className="ocean-header">The Trenches Layer (Upto 11000m) </p>
+          <p className="ocean-header">The Trenches Layer\n(Upto 11000m) </p>
           <p>
             The Trenches are narrow, underwater valleys of the ocean floor which have high
             pressure and near-freezing temperatures. There is no natural light in this zone
@@ -95,8 +102,8 @@ export default class Ocean extends React.Component {
           x={76}
           y={1600}
           size={300}
-          captionX={-150}
-          captionY={-290}
+          captionX={-180}
+          captionY={-200}
         />
         <Creature
           name="seaturtle"
@@ -104,7 +111,7 @@ export default class Ocean extends React.Component {
           y={1550}
           size={180}
           captionX={-36}
-          captionY={-300}
+          captionY={-225}
         />
         <Creature
           name="tuna"
@@ -112,7 +119,7 @@ export default class Ocean extends React.Component {
           y={1750}
           size={160}
           captionX={-60}
-          captionY={-250}
+          captionY={-150}
         />
         <Creature
           name="koi"
@@ -128,7 +135,7 @@ export default class Ocean extends React.Component {
           y={2050}
           size={180}
           captionX={0}
-          captionY={-350}
+          captionY={-270}
         />
         <Creature
           name="octopus"
@@ -152,7 +159,7 @@ export default class Ocean extends React.Component {
           y={4050}
           size={450}
           captionX={175}
-          captionY={-330}
+          captionY={-200}
         />
         <Creature
           name="jellyfish"
@@ -173,15 +180,15 @@ export default class Ocean extends React.Component {
         <Creature
           name="squid"
           x={20}
-          y={7250}
-          size={450}
-          captionX={-480}
+          y={7650}
+          size={350}
+          captionX={-150}
           captionY={-135}
         />
         <Creature
           name="sea_star"
           x={25}
-          y={8200}
+          y={9200}
           size={300}
           captionX={-300}
           captionY={-90}

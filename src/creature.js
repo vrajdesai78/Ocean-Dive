@@ -41,7 +41,6 @@ export default class Creature extends React.Component {
           >
             <span className="caption-name">{creature.name}</span>
             {text}
-            <button className="button">Mint NFT</button>;
           </div>
         );
       }
@@ -59,11 +58,7 @@ export default class Creature extends React.Component {
             style={styles.bounce}
             draggable={false}
             onMouseEnter={() => this.setState({ caption: true })}
-            onMouseLeave={() =>
-              setTimeout(() => {
-                this.setState({ caption: false });
-              }, 2000)
-            }
+            onMouseLeave={() => this.setState({ caption: false })}
           />
         </StyleRoot>
       </div>

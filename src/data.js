@@ -31,25 +31,17 @@ export const data = {
         name: "Common Octopus",
         info: "Species: Octopus vulgaris\nColor: Many colors as they change to match their surroundings\nSize: The “head” can grow up to 25 cm while the arms may reach up to a meter\nHabitat: Prefer rocky floors of shallow water\nPrey: Copepods, crabs, snails, and even other octopuses \nBehavior: They are some of the smartest animals on Earth with the observed ability to solve mazes, recognize individual humans, and learn how to unscrew jaws.\nFun fact: They have been observed to keep gardens of various marine plants",
     },
-    sperm_whale: {
+    spermwhale: {
         name: "Sperm Whale",
         info: "Species: Physeter macrocephalus\nColor: Dark gray\nSize: Up to 65 ft in length\nHabitat: Usually cold water areas, close to all waters that are over 1000 meters deep that do not have ice above\nPrey: Mainly deep water squid, including the giant squid as well as sharks, octopi, and fish\nBehavior: Recovering from being over hunted by the commercial whaling industry throughout the 1800s and 1900s; they are currently listed as endangered\nFun Fact: Possess the largest brain of any living animal and can dive beyond 1.9 miles or 3,000 meters",
+    },
+    swordfish: {
+        name: "Swordfish",
+        info: "Species: Xiphias gladius\nColor: Blue, green, and silver\nSize: Up to 18 ft in length\nHabitat: Tropical and temperate oceans\nPrey: Fish, squid, and other marine animals\nBehavior: They are solitary and can be found in deep water\nFun Fact: They have a long, flat bill that is used to stun prey and a long, thin, pointed snout that is used to spear prey",
     },
     anglerfish: {
         name: "Anglerfish",
         info: "Species: Lophius piscatorius\nColor: Brown, gray, or green\nSize: Up to 3 feet in length\nHabitat: Deep water, usually in the Atlantic Ocean\nPrey: Fish, squid, and crustaceans\nBehavior: They are usually solitary but can be found in small groups of up to 10\nFun fact: They have a bioluminescent lure on their head that attracts prey",
-    },
-    vulcanoctopus_hydrothermalis: {
-        name: "Vent Octopus",
-        info: "Species: Vulcanoctopus hydrothermalis\nColor: White, semi-translucent\nSize: Up to 56 mm mantle length - very small\nHabitat: East Pacific Rise (mid-oceanic ridge southwest of Mexico)\nPrey: Crabs and amphipods\nBehavior: Crawl using touch and smell as their eyes do not function well and are insensitive to light\nFun Fact: Is the only species known to live by hydrothermal vents is the only species part of the genus Vulcanoctopus",
-    },
-    phytoplankton: {
-        name: "Phytoplankton",
-        info: "These microscopic organisms are numerous in the ocean and their photosynthesis creates the energy that is the foundation of the ocean ecosystem. It also provides 50-80% of oxygen production on Earth. ",
-    },
-    hydrothermal_vent: {
-        name: "Hydrothermic Vent",
-        info: "Hydrothermal vents are fissures in the sea floor which form in areas where tectonic plates are moving apart. The liquid it expels is high in minerals and nutrients which causes small ecological communities to form around vents.",
     },
     jellyfish: {
         name: "Giant Phantom Jelly",

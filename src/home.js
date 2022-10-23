@@ -16,13 +16,6 @@ export default class Home extends React.Component {
         <div class="video-container">
           <video src="../assets/vid1.mp4" autoPlay muted loop class="vid1"></video>
         </div>
-        <header>
-          <a href="#" class="logo">
-            <button id="button">
-              <h3>Connect Wallet</h3>
-            </button>
-          </a>
-        </header>
 
         <div id="center-container">
           <p id="center-title">
@@ -30,12 +23,12 @@ export default class Home extends React.Component {
             Adventure
           </p>
 
-          <p id="center-subtitle">95% remains unexplored ...</p>
+          <p id="center-subtitle">Deep, Dive and Discover</p>
         </div>
 
         <div id="start-text">
           <button id="button">
-            <h2>Click to Start</h2>
+            <h2>Let's dive in</h2>
           </button>
         </div>
       </div>

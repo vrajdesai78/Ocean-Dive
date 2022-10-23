@@ -9,7 +9,7 @@
         "url": "https://github.com/vrajdesai78/Ocean-World-DeepDiveHacks"
     },
     "scripts": {
-        "build": "webpack --config webpack.config.js",
+        "build": "webpack --config webpack.config.js --output public",
         "start": "webpack serve --open --config ./webpack.config.js"
     },
     "dependencies": {
